@@ -8,26 +8,26 @@ public class Main {
     private static Supermarket supermarket = new Supermarket();
 
     private static void unosArtikalaUMarket(){
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "3"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "4"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "5"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "6"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "7"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "8"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "9"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "10"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "11"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "12"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "13"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "14"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "15"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "16"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "17"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "18"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "19"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "20"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 800, "1"));
+        supermarket.dodajArtikl(new Artikl("Monopoly", 20, "2"));
+        supermarket.dodajArtikl(new Artikl("Frizider", 1200, "3"));
+        supermarket.dodajArtikl(new Artikl("Usisivač", 300, "4"));
+        supermarket.dodajArtikl(new Artikl("Zamrzivač", 800, "5"));
+        supermarket.dodajArtikl(new Artikl("Radni stol", 400, "6"));
+        supermarket.dodajArtikl(new Artikl("Posuđe", 100, "7"));
+        supermarket.dodajArtikl(new Artikl("Ormar", 500, "8"));
+        supermarket.dodajArtikl(new Artikl("Ogledalo", 70, "9"));
+        supermarket.dodajArtikl(new Artikl("Majica", 70, "10"));
+        supermarket.dodajArtikl(new Artikl("Prozor", 100, "11"));
+        supermarket.dodajArtikl(new Artikl("Ruksak", 100, "12"));
+        supermarket.dodajArtikl(new Artikl("Televizor", 850, "13"));
+        supermarket.dodajArtikl(new Artikl("Laptop", 2100, "14"));
+        supermarket.dodajArtikl(new Artikl("Tablet", 400, "15"));
+        supermarket.dodajArtikl(new Artikl("Telefon", 1350, "16"));
+        supermarket.dodajArtikl(new Artikl("Kauč", 1500, "17"));
+        supermarket.dodajArtikl(new Artikl("Fotelja", 500, "18"));
+        supermarket.dodajArtikl(new Artikl("Ćilim", 100, "19"));
+        supermarket.dodajArtikl(new Artikl("Laminat", 1000, "20"));
     }
 
     public static void ispisArtikala(Artikl[] artikli){

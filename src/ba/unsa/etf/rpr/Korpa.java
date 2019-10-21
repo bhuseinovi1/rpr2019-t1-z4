@@ -20,17 +20,17 @@ public class Korpa {
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
-        Artikl a1 = null;
+        Artikl trazeni_artikl = null;
         Petlja: for(int i=0;i<brojArtikala;i++) {
             if (this.Artikli[i] != null) {
                 if (this.Artikli[i].getKod().equals(kod)) {
-                    a1 = new Artikl(this.Artikli[i].getNaziv(), this.Artikli[i].getCijena(), this.Artikli[i].getKod());
-                    this.Artikli[i] = null;
+                    trazeni_artikl = new Artikl(this.Artikli[i].getNaziv(), this.Artikli[i].getCijena(), this.Artikli[i].getKod());
+                    System.arraycopy(this.Artikli,i+1,this.Artikli,i,this.Artikli.length-1-i);
                     break Petlja;
                 }
             }
         }
-        return a1;
+        return trazeni_artikl;
     }
 
     public int dajUkupnuCijenuArtikala() {
